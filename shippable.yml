@@ -10,6 +10,10 @@ branches:
   except:
     - post-ci
     - "#include"
+env:
+  matrix:
+    - M1=one
+    - secure: GNAhSpepkDFZ6ztJdwZdnn4ZlJI8efxp/BX3FH9TzUoDLTPU9gsC5pTfj+DP/yZiS/uMSjrQiTLJT1KUwL5YltssiKHqYjNM9+eYcgGaWwnFyTVyk4L8z76rg/0GuuUAG4KSdpafiNMUW1/G5jl77rlhyx8i+WjPcyOyFxyPJ76tlTc9pnrzr53Bsty+/XGQ7oDsLXzVA30jLY5jvYF19YFcRhx+lgDFzmpU65bdY3yHDH2p/Nkrph2XIQ7WmsjjckV3iSD8YWsYVJFF9TrqS7qIUQJf/UC/YEcopK6NpR6A8NGGVPwRqOI9v0JNBCaquKmZsAmQVeXQQVdQ6+JDLA==
 
 services:
   - selenium
@@ -31,7 +35,7 @@ build:
     - ps -eax
     - ls -al
     - echo $M1
-    - echo $key1 and $key2 and $key3
+    - echo $key3
 
  # post_ci:
   #  - docker push shippabledocker/sample_node
