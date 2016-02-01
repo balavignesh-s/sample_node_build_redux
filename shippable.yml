@@ -6,6 +6,11 @@ node_js:
   - 0.10.25
   - 4.2.0
 
+branches:
+  except:
+    - post-ci
+    - "#include"
+
 services:
   - selenium
   - mysql
