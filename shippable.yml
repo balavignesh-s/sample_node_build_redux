@@ -13,8 +13,7 @@ branches:
 env:
   matrix:
     - M1=one
-    - secure: Dg6OGT5fiAzqYJCyroBGTYY/Fcy0u5AOsuUa94s3ZR/+cMGHnHy4kAbd7I7mjANToSNsTa2pmrNKkgTw81hFBsY84NeaRSWH95jXFQs76JKvyZzMUdhM8P6ZfiyUCZM3P4zgiTON08C2+J2LrMd9PzITtz9LfKsgDhA023mKOli7oJJYf8mX/ADdgDFLN3bEt0SPxbbWKbJR8hcuCXlmpGHudW2lrE2SQt8D8PHtW+JguGsyiw5RZPkVyjQOFE9eXVLnPPtnxBgAqKw7Spmb+ubASq3eTnDoZOyNGMdv5pm1xJNn0SfVqV3ZoVYhZB4PPt3qd1JNuMSBE+iWnFsxsw==
-
+    - secure: vTCs3XMzxHx3MazFK/4r58XoJwKbN9sXB1XlHlac+0n3s4Q1x7e6JElOWAEZft1V3yq6v1gskTgPo7QsO5+eG+fK896HvgdUBUl+El4XRWqbGGNcdX2Li7P9ylzbBouAaO730/ttY+VPObsk8wzIJOE5N2HoFkIats/nXtvrBBJ/FgGNDOM63N1Ubmvlba1evDQyczlwzS6SVnyBWejFRe5VsFJ2Gy4SBWBfCU/T25xmF9i7yWg4fSySm75Cu98JLjoCE0/Ogz+W27OgcO1efev1kTH7dST8RYG8VlZNZcVYV/5ys9MCx0DFrQlMRA2ajtsexNPNcyunfV37Zsij+A==
 services:
   - selenium
   - mysql
