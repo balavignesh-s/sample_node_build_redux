@@ -36,7 +36,9 @@ build:
     - ls -al
     - echo $M1
     - echo $key3
-
+    - docker pull drydock/u12nodall:prod
+    - docker pull drydock/u14nodall:prod
+    - docker pull drydock/u12pytall:prod
  # post_ci:
   #  - docker push shippabledocker/sample_node
 
